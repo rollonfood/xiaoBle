@@ -66,11 +66,11 @@
                         display-name = "Base";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
- &mt LCTRL ESC     &kp Q     &kp W       &kp F        &kp P         &kp G             &kp J         &kp L         &kp U           &kp Y      &lt FN SQT     &kp LG(LBKT)
+ &mt LALT ESC     &kp Q     &kp W       &kp F        &kp P         &kp G             &kp J         &kp L         &kp U           &kp Y      &lt FN SQT     &kp LG(LBKT)
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼────────────┼────────────┼─────────────┼─────────────┤ ├──────┤
  &mt LALT RBKT    &kp A        &kp R          &kp S      &kp T          &kp D              &kp H          &kp N         &kp E          &kp I     &kp O       &kp LG(RBKT)
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
- &mt LALT LBKT   &kp Z        &kp X         &kp C          &kp V        &kp B              &kp K       &kp M     &mt SEMI COMMA &mt COLON DOT   &kp QMARK    &kp LGUI
+ &mt LCTRL LBKT   &kp Z        &kp X         &kp C          &kp V        &kp B              &kp K       &kp M     &mt SEMI COMMA &mt COLON DOT   &kp QMARK    &kp LCTRL
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
                                                &kp LSHFT      &sk LGUI      &lt NAV BSPC       &lt NUM SPC    &kp TAB    &mt LSHIFT ENTER
 //                                            ╰────────────┼──────────────┴─────────────╯   ╰─────────────┴─────────────┼─────────────╯
