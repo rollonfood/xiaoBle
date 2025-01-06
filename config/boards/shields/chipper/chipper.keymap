@@ -68,9 +68,9 @@
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
  &mt LALT ESC     &kp Q     &kp W       &kp F        &kp P         &kp G             &kp J         &kp L         &kp U           &kp Y      &lt FN SQT     &kp LG(LBKT)
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼────────────┼────────────┼─────────────┼─────────────┤ ├──────┤
- &mt LALT RBKT    &kp A        &kp R          &kp S      &kp T          &kp D              &kp H          &kp N         &kp E          &kp I     &kp O       &kp LG(RBKT)
+ &mt LALT RBKT    &kp A        &kp R          &kp S      &kp T          &kp D              &kp H          &kp N       &kp E        &kp I     &kp O       &kp LG(RBKT)
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
- &mt LCTRL LBKT   &kp Z        &kp X         &kp C          &kp V        &kp B              &kp K       &kp M     &mt SEMI COMMA &mt COLON DOT   &kp QMARK    &kp LCTRL
+ &mt LCTRL LBKT   &kp Z        &kp X         &kp C          &kp V        &kp B              &kp K       &kp M     &mt SEMI COMMA &mt COLON DOT   &kp QMARK   &kp LG(DOWN)
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
                                                &kp LSHFT      &sk LGUI      &lt NAV BSPC       &lt NUM SPC    &kp TAB    &mt LSHIFT ENTER
 //                                            ╰────────────┼──────────────┴─────────────╯   ╰─────────────┴─────────────┼─────────────╯
@@ -83,13 +83,13 @@
                         display-name = "Navigation";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-  &kp LG(SQT)  &kp E       &kp LG(E)     &kp UP     &kp LS(LG(N))  &kp LS(LG(RBKT))    &kp FSLH     &kp UNDER     &kp PIPE       ___           ___         &kp HOME
+  &kp LG(SQT)  &kp E       &kp LG(E)    &kp LA(UP)    &kp LS(LG(N)) &kp LS(LG(RBKT)) &kp LA(LG(UP)) &kp UNDER     &kp UP       ___           ___           &kp HOME
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼───toggle────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-  &kp LG(LBKT)  &kp K       &kp LEFT     &kp DOWN   &kp RIGHT     &kp LS(LG(LBKT))     &kp HASH     &kp HASH      &kp DOWN      &kp RIGHT      ___         &kp END
+  &kp LG(LBKT)  &kp K    &kp LA(LEFT)   &kp LA(DOWN)  &kp LA(RIGHT) &kp LS(LG(LBKT)) &kp LA(LG(DOWN))  &kp LEFT    &kp DOWN     &kp RIGHT          ___       &kp END
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-  &kp LG(RBKT) &kp LG(SEMI)  &kp N     &kp LS(EQUAL)  &kp(MINUS)      &kp LG(J)        &kp AMPS      ___           ___           ___           ___       &kp LA(DOWN)
+  &kp LG(RBKT) &kp LG(SEMI)  &kp N     &kp LS(EQUAL)  &kp(MINUS)      &kp LG(J)        &kp AMPS      ___           ___           ___           ___           ____
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-                                         ___        &kp LA(LS(LG(S)))    ___         &kp LA(LEFT)  &kp LA(UP) ___ &kp LA(RIGHT)
+                                         ___        &kp LA(LS(LG(S)))    ___            ____         ____         ____
 //                                      ╰────────────╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯─────────────╯                                           
                         >;
                 };
@@ -113,9 +113,9 @@
                         display-name = "Number, Symbol";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────────────┬──────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    ___     &bht DQT QMARK &kp LT        &kp HASH      &kp GT        &kp BSLH       &bht EXCL EQUAL  &bht AMPS N7 &bht STAR N8 &bht UNDER N9  &kp RG(P)     ___
+    ___     &bht DQT QMARK &kp AMPS        &kp DQT      &kp GT        &kp BSLH       &bht EXCL EQUAL  &bht AMPS N7 &bht STAR N8 &bht UNDER N9  &kp RG(P)     ___
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────=!──────┼──────7+──────┼─────8-──────┼─────9_──────┼─────────────┤ ├──────┤
-    ___     &kp AT         &kp LPAR      &kp MINUS     &kp RPAR      &kp GRAVE      &bht HASH KP_DOT &bht DLLR N4 &bht PRCNT N5  &bht CARET N6  ___           ___
+ &kp DLLR    &kp EXCL         &kp AT       &kp LPAR     &kp RPAR      &kp STAR      &bht HASH KP_DOT &bht DLLR N4 &bht PRCNT N5  &bht CARET N6  ___           ___
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────.#──────┼─────4*───────┼──────5/─────┼──────6\─────┼─────────────┤ ├──────┤
     ___     ___            &kp LBKT      &kp PIPE   &kp KP_DIVIDE &kp KP_MULTIPLY   &bht PRCNT N0   &bht EXCL N1   &bht AT N2  &bht HASH N3  ___           ___
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────0%──────┼──────1|──────┼─────2&──────┼──────3──────┼─────────────╯ ╰──────╯
