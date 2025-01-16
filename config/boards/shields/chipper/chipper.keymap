@@ -72,7 +72,7 @@
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
  &mt LCTRL LBKT   &kp Z        &kp X         &kp C          &kp V        &kp B              &kp K       &kp M     &mt SEMI COMMA &mt COLON DOT   &kp QMARK   &kp LG(DOWN)
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-                                               &kp LSHFT      &sk LGUI      &lt NAV BSPC       &lt NUM SPC    &kp TAB    &mt LSHIFT ENTER
+                                               &kp LSHFT      &sk LGUI      &lt NAV BSPC       &lt NUM SPC    &kp TAB    &lt NAV ENTER
 //                                            ╰────────────┼──────────────┴─────────────╯   ╰─────────────┴─────────────┼─────────────╯
                         >;
                 };
@@ -83,11 +83,11 @@
                         display-name = "Navigation";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-  &kp LG(SQT)  &kp E       &kp LG(E)    &kp LA(UP)    &kp LS(LG(N)) &kp LS(LG(RBKT)) &kp LA(LG(UP)) &kp UNDER     &kp UP       ___           ___           &kp HOME
+  &kp LG(SQT)  &kp E       &kp LG(E)    &kp LA(UP)    &kp LS(LG(N)) &kp LS(LG(RBKT)) &kp LA(LG(UP)) &kp LA(UP)     &kp UP       ___           ___           &kp PG_UP
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼───toggle────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-  &kp LG(LBKT)  &kp K    &kp LA(LEFT)   &kp LA(DOWN)  &kp LA(RIGHT) &kp LS(LG(LBKT)) &kp LA(LG(DOWN))  &kp LEFT    &kp DOWN     &kp RIGHT       ___         &kp END
+  &kp LG(LBKT)  &kp K    &kp LA(LEFT)   &kp LA(DOWN)  &kp LA(RIGHT) &kp LS(LG(LBKT)) &kp LA(LEFT)   &kp LEFT     &kp DOWN       &kp RIGHT     &kp LA(RIGHT)  &kp PG_DN
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-  &kp LG(RBKT) &kp LG(SEMI)  &kp N     &kp LS(EQUAL)  &kp(MINUS)      &kp LG(J)        &kp AMPS      ___           ___           ___           ___           ___
+  &kp LG(RBKT) &kp LG(SEMI)  &kp N     &kp LS(EQUAL)  &kp(MINUS)      &kp LG(J)        &kp AMPS   &kp LA(DOWN)      ___           ___           ___           ___
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
                                          ___        &kp LA(LS(LG(S)))    ___            ___         ___         ___
 //                                      ╰────────────╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯─────────────╯                                           
@@ -113,9 +113,9 @@
                         display-name = "Number, Symbol";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────────────┬──────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    ___     &bht DQT QMARK &kp AMPS        &kp DQT      &kp GT        &kp BSLH       &bht EXCL EQUAL  &bht AMPS N7 &bht STAR N8 &bht UNDER N9  &kp RG(P)     ___
+    ___     &bht DQT QMARK &kp AMPS        &kp DQT      &kp GT        &kp BSLH       &kp LA(LG(UP))  &bht AMPS N7 &bht STAR N8 &bht UNDER N9  &kp RG(P)     ___
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────=!──────┼──────7+──────┼─────8-──────┼─────9_──────┼─────────────┤ ├──────┤
- &kp DLLR    &kp EXCL         &kp AT       &kp LPAR     &kp RPAR      &kp STAR      &bht HASH KP_DOT &bht DLLR N4 &bht PRCNT N5  &bht CARET N6  ___           ___
+ &kp DLLR    &kp EXCL         &kp AT       &kp LPAR     &kp RPAR      &kp STAR      &kp LA(LG(DOWN)) &bht DLLR N4 &bht PRCNT N5  &bht CARET N6  ___           ___
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────.#──────┼─────4*───────┼──────5/─────┼──────6\─────┼─────────────┤ ├──────┤
     ___     ___            &kp LBKT      &kp PIPE   &kp KP_DIVIDE &kp KP_MULTIPLY   &bht PRCNT N0   &bht EXCL N1   &bht AT N2  &bht HASH N3  ___           ___
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────0%──────┼──────1|──────┼─────2&──────┼──────3──────┼─────────────╯ ╰──────╯
