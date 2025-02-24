@@ -113,11 +113,11 @@
                         display-name = "Number, Symbol";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────────────┬──────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-    ___     &bht DQT QMARK &kp AMPS        &kp DQT      &kp GT        &kp BSLH       &kp LA(LG(UP))  &bht AMPS N7 &bht STAR N8 &bht UNDER N9  &kp RG(P)     ___
+ &kp GRAVE  &kp HASH       &kp AMPS        &kp DQT       &kp CARET     &kp GT      &kp LA(LG(UP))  &bht AMPS N7 &bht STAR N8 &bht UNDER N9  &kp RG(P)     ___
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────=!──────┼──────7+──────┼─────8-──────┼─────9_──────┼─────────────┤ ├──────┤
  &kp DLLR    &kp EXCL         &kp AT       &kp LPAR     &kp RPAR      &kp STAR      &kp LA(LG(DOWN)) &bht DLLR N4 &bht PRCNT N5  &bht CARET N6  ___           ___
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────.#──────┼─────4*───────┼──────5/─────┼──────6\─────┼─────────────┤ ├──────┤
-    ___     &kp UNDER        &kp LBKT      &kp PIPE   &kp KP_DIVIDE &kp KP_MULTIPLY   &bht PRCNT N0   &bht EXCL N1   &bht AT N2  &bht HASH N3  ___           ___
+ &bht TILDE PRCNT &kp BSLH &kp FSLH    &kp UNDER   &kp KP_DIVIDE &kp KP_MULTIPLY   &bht PRCNT N0   &bht EXCL N1   &bht AT N2    &bht HASH N3  &kp PIPE          ___
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────0%──────┼──────1|──────┼─────2&──────┼──────3──────┼─────────────╯ ╰──────╯
                                          &kp KP_PLUS   &kp KP_MINUS  &kp EQUAL            ___           &kp DEL        ___                                    
 //                                     ╰─────────────┴─────────────┴─────────────╯ ╰──────────────┴──────────────┼─────────────╯                                     
