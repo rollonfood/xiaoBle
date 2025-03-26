@@ -98,9 +98,9 @@
                         display-name = "Function, F key";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-  &kp LG(SQT)   ___     &kp LA(LS(TAB)) &kp LG(LS(RBKT))  &kp LS(TAB)      ___          ___         &kp F7        &kp F8        &kp F9         &kp F12       ___
+  &kp LG(SQT)   ___     &kp LA(LS(TAB)) &kp LG(LS(RBKT))  &kp LS(TAB)   &kp E         ___         &kp F7        &kp F8        &kp F9         &kp F12       ___
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-    ___  &kp LG(LS(LA(M))) &kp LG(LBKT) &kp LG(LS(RBKT)) &kp LG(RBKT) &kp LG(LS(LA(D)))   ___         &kp F4        &kp F5    &kp LA(LS(I))     &kp F11       ___
+    ___  &kp LG(LS(LA(M))) &kp LG(LBKT) &kp LG(LS(RBKT)) &kp LG(RBKT)   &kp N           ___         &kp F4        &kp F5    &kp LA(LS(I))     &kp F11       ___
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
 &kp LA(LS(B))   ___         &kp LA(R)      &kp LA(N)  &kp LG(LS(A)) &kp LG(LS(LA(E))) &kp LG(LS(LA(K)))  &kp F1     &kp F2        &kp F3       &kp F10         ___
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
@@ -113,11 +113,11 @@
                         display-name = "Number, Symbol";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────────────┬──────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
- &kp GRAVE  &kp HASH       &kp AMPS        &kp DQT   &mt LBKT CARET &mt RBKT GT      &kp LA(LG(UP))  &bht AMPS   N7 &bht STAR N8   &bht UNDER N9  &kp RG(P)     ___
+ &kp GRAVE  &kp HASH       &kp AMPS        &kp DQT   &bht  LBKT CARET &bht RBKT LT    &kp LA(LG(UP))  &bht AMPS   N7 &bht STAR N8   &bht UNDER N9  &kp RG(P)   ___
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────=!──────┼──────7+──────┼─────8-──────┼─────9_──────┼─────────────┤ ├──────┤
- &kp DLLR    &kp EXCL        &kp AT     &mt LBRC LPAR  &mt RBRC RPAR   &kp STAR      &kp LA(LG(DOWN)) &bht DLLR N4 &bht PRCNT N5  &bht CARET N6  ___           ___
+ &kp DLLR  &bht PIPE EXCL   &kp AT     &mt LBRC LPAR  &mt RBRC RPAR   &bht GT STAR   &kp LA(LG(DOWN)) &bht DLLR N4 &bht PRCNT N5  &bht CARET N6 &kp DOT        ___
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────.#──────┼─────4*───────┼──────5/─────┼──────6\─────┼─────────────┤ ├──────┤
- &bht TILDE PRCNT &kp BSLH &kp FSLH    &kp UNDER   &kp KP_DIVIDE &kp KP_MULTIPLY   &bht PRCNT N0   &bht EXCL N1   &bht AT N2    &bht HASH N3  &kp PIPE          ___
+ &bht TILDE PRCNT &kp BSLH &kp FSLH    &kp UNDER   &kp KP_DIVIDE &kp KP_MULTIPLY   &bht PRCNT N0   &bht EXCL N1   &bht AT N2    &bht HASH N3  &kp PIPE         ___
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├──────0%──────┼──────1|──────┼─────2&──────┼──────3──────┼─────────────╯ ╰──────╯
                                          &kp KP_PLUS   &kp KP_MINUS  &kp EQUAL            ___           &kp DEL        ___                                    
 //                                     ╰─────────────┴─────────────┴─────────────╯ ╰──────────────┴──────────────┼─────────────╯                                     
