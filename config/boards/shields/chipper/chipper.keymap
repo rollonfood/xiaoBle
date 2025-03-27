@@ -83,9 +83,9 @@
                         display-name = "Navigation";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-  &kp LG(SQT)  &kp E       &kp LG(E)    &kp LA(UP)    &kp LS(LG(N)) &kp LS(LG(RBKT)) &kp LG(LS(LA(J))) &kp LA(UP)    &kp UP    &kp LA(K)        ___        &kp PG_UP
+  &kp LG(SQT)  &kp E       &kp LG(E)    &kp LA(UP)    &kp LS(LG(N)) &kp LS(LG(RBKT)) &kp LC(LS(M)) &kp LA(UP)    &kp UP    &kp LA(K)        ___        &kp PG_UP
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼───toggle────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-  &kp LG(LBKT)  &kp K    &kp LA(LEFT)   &kp LA(DOWN)  &kp LA(RIGHT) &kp LS(LG(LBKT)) &kp LG(LS(LA(H)))   &kp LEFT   &kp DOWN   &kp RIGHT     &kp LA(RIGHT)  &kp PG_DN
+  &kp LG(LBKT)  &kp K    &kp LA(LEFT)   &kp LA(DOWN)  &kp LA(RIGHT) &kp LS(LG(LBKT)) &kp LC(LS(L))   &kp LEFT   &kp DOWN   &kp RIGHT     &kp LA(RIGHT)  &kp PG_DN
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
   &kp LG(RBKT) &kp LG(SEMI)  &kp N     &kp LS(EQUAL)  &kp(MINUS)      &kp LG(J)   &kp LG(LS(P)) &kp LA(DOWN) &kp LC(LS(LA(H))) &kp LC(LS(LA(J))) &kp LC(LS(P)) ___
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
