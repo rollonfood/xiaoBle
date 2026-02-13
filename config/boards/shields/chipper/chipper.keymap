@@ -66,11 +66,11 @@
                         display-name = "Base";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
- &mt LALT ESC     &kp Q     &kp W       &kp F        &kp P         &kp G              &kp J         &kp L        &kp U        &kp Y     &lt FN SQT  &mt LC(LSHIFT) LG(LBKT)
+ &mt LALT ESC     &kp Q     &kp W       &kp F        &kp P         &kp G              &kp J         &kp L        &kp U        &kp Y     &lt FN SQT  &kp LC(LS(P))
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼────────────┼────────────┼─────────────┼─────────────┤ ├──────┤
  &mt LG(DEL) DEL &kp A        &kp R       &kp S      &kp T         &bht LALT D         &kp H          &kp N       &kp E           &kp I       &kp O      &mt LCTRL COLON
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
- &mt LG(LSHIFT) LS(N1) &mt LG(Z) Z  &kp X  &kp C        &kp V       &kp B             &kp K       &kp M     &mt SEMI COMMA &mt COLON DOT   &kp QMARK   &kp LG(LSHIFT)
+ &mt LG(LSHIFT) LS(N1) &mt LG(Z) Z  &kp X  &kp C        &kp V       &kp B             &kp K       &kp M     &mt SEMI COMMA &mt COLON DOT   &kp QMARK   &kp LC(LSHIFT)
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
                                              &lt FN END &mt LGUI LA(BSPC)  &mt LSHIFT BSPC   &lt NUM SPC  &lt NAV ENTER  &mt LG(LS(LALT)) TAB  
 //                                            ╰────────────┼──────────────┴─────────────╯   ╰─────────────┴─────────────┼─────────────╯
@@ -83,11 +83,11 @@
                         display-name = "Navigation";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-  &kp LG(SQT)  &kp E       &kp LG(E)    &kp LA(UP)    &kp LS(LG(N)) &kp LS(LG(RBKT)) &kp LC(LS(M)) &kp LA(UP)    &kp UP    &kp LA(K)         &kp LA(C)    &kp LG(LA(LEFT))
+  &kp LG(SQT)  &kp E       &kp LG(E)    &kp LA(UP)    &kp LS(LG(N)) &kp LS(LG(RBKT)) &kp LG(LS(M)) &kp LA(UP)    &kp UP    &kp LA(K)         &kp LA(C)    &kp LG(LA(LEFT))
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼───toggle────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
   &kp LG(LBKT)  &kp K    &kp LA(LEFT)   &kp LA(DOWN)  &kp LA(RIGHT) &kp LS(LG(LBKT)) &kp LA(LEFT) &kp LEFT      &kp DOWN     &kp RIGHT     &kp LA(RIGHT)   &kp PG_UP
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-  &kp LG(RBKT) &kp LG(SEMI)  &kp N     &kp LS(EQUAL)  &kp(MINUS)      &kp LG(J)    &kp LC(LS(L)) &kp LA(DOWN) &kp LC(LS(LA(H))) &kp LC(LS(LA(J))) &kp LC(LS(P)) &kp PG_DN
+  &kp LG(RBKT) &kp LG(SEMI)  &kp N     &kp LS(EQUAL)  &kp(MINUS)      &kp LG(J)    &kp LG(LS(L)) &kp LA(DOWN) &kp LC(LS(LA(H))) &kp LC(LS(LA(J))) &kp LC(LS(P)) &kp PG_DN
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
                                          ___        &kp LA(LS(LG(S)))  &kp LG(DOWN)          ___         ___         ___
 //                                      ╰────────────╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯─────────────╯                                           
