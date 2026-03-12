@@ -98,13 +98,13 @@
                         display-name = "Function, F key";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
- &mt HOME ESC &kp B        &kp LC(L)      &kp UP      &kp LC(LA(P))  &kp LC(LS(F))      ___      &kp F7        &kp F8        &kp F9       &kp F12       &to DEF
+ &mt HOME ESC &kp B        &kp LC(L)      &kp UP      &kp LC(LA(P))  &kp LC(LS(F))     &kp LC(N1)     &kp N7        &kp N8         &kp N9     &kp F12     &to DEF
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-  &kp DEL &kp TAB  &bht LSHIFT LEFT &bht LALT DOWN &bht LCTRL RIGHT  &kp LC(D)      ___        &kp F4       &kp F5       &kp LA(LS(I))     &kp F11        &kp LC(R)
+  &kp DEL &kp TAB  &bht LSHIFT LEFT &bht LALT DOWN &bht LCTRL RIGHT  &kp LC(D)         &kp LC(N2)       &kp N4       &kp N5       &kp N6      ___         &kp LC(R)
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-&kp LA(LC(B)) &kp LC(Z) &kp LC(X)       &kp LC(C)        &kp LC(V)     &kp LC(LA(M))      &kp LG(LS(R))  &kp F1       &kp F2        &kp F3       &kp F10      ___
+&kp LA(LC(B)) &kp LC(Z) &kp LC(X)       &kp LC(C)        &kp LC(V)     &kp LC(LA(M))    &kp N0     &kp N1         &kp N2        &kp N3        ___        &kp LC(LA(G))
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-                                             &kp J       &kp E          &kp SPC         &kp LG(C)     &kp ENTER       ___                                       
+                                             &kp J       &kp E          &kp SPC      &kp LG(C)     &kp ENTER      ___                                       
 //                                           ╰──────╯╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯╰──────╯                                           
                         >;
 		};
