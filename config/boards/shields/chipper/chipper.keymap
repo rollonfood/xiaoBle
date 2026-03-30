@@ -59,7 +59,7 @@
     };
 };
 
-/ {
+/ 
         keymap {
                 compatible = "zmk,keymap";
 
