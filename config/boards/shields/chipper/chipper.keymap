@@ -85,13 +85,13 @@
                         display-name = "Navigation";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-  &kp LG(SQT)  &kp E       &kp LG(E)    &kp LA(UP)    &kp LS(LG(N)) &kp LS(LG(RBKT)) &kp LG(LS(M)) &kp LA(UP)    &kp UP    &kp LA(K)         &kp LA(C)    &kp LG(LA(LEFT))
+  &kp ESC  &kp LC(M)  &mt LSHIFT LBKT    &mt LCTRL A    &kp RBKT     &kp T            &kp LG(LS(M)) &kp LA(UP)    &kp UP    &kp LA(K)         &kp LA(C)    &kp LG(LA(LEFT))
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼───toggle────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-  &kp LG(LBKT)  &kp K    &kp LA(LEFT)   &kp LA(DOWN)  &kp LA(RIGHT) &kp LS(LG(LBKT)) &kp LA(LEFT) &kp LEFT      &kp DOWN     &kp RIGHT     &kp LA(RIGHT)   &kp PG_UP
+  &kp LC(LS(F9))  &kp G       &kp UP      &bht LALT S  &kp DOWN      &kp B             &kp LA(LEFT) &kp LEFT      &kp DOWN     &kp RIGHT     &kp LA(RIGHT)   &kp PG_UP
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-  &kp LG(RBKT) &kp LG(SEMI)  &kp N     &kp LS(EQUAL)  &kp(MINUS)      &kp LG(J)    &kp LG(LS(L)) &kp LA(DOWN) &kp LC(LS(LA(H))) &kp LC(LS(LA(J))) &kp LC(LS(P)) &kp PG_DN
+  &kp LC(LS(F10)) &kp LC(Z)  &kp N          ___             ___          ___        &kp LG(LS(L)) &kp LA(DOWN) &kp LC(LS(LA(H))) &kp LC(LS(LA(J))) &kp LC(LS(P)) &kp PG_DN
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-                                         ___        &kp LA(LS(LG(S)))  &kp LG(DOWN)          ___         ___         ___
+                                         ___           &mkp MCLK        &kp SPC          ___         ___         ___
 //                                      ╰────────────╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯─────────────╯                                           
                         >;
                 };
@@ -102,7 +102,7 @@
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
  &mt HOME ESC &kp B        &kp LC(L)    &kp UP    &kp LC(LA(P))  &bht LC(LS(F)) N0   &kp LC(N1)     &kp N7        &kp N8         &kp N9     &kp F12       &to DEF
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-  &bht DEL BSPC  &kp TAB &bht LSHIFT LEFT &bht LALT DOWN &bht LCTRL RIGHT  &kp LC(D)   &kp LC(N2)       &kp N4       &kp N5       &kp N6      &to SYS        &kp LC(R)
+  &bht DEL BSPC  &kp TAB &bht LSHIFT LEFT &bht LALT DOWN &bht LCTRL RIGHT  &kp LC(D)   &kp LC(N2)       &kp N4       &kp N5       &kp N6      &to NAV       &kp LC(R)
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
 &kp LA(LC(B)) &kp LC(Z) &kp LC(X)       &kp LC(C)        &kp LC(V)     &kp LC(LA(M))    &kp N0     &kp N1        &kp N2        &kp N3     &kp LC(G)       &kp LC(LA(G))
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
